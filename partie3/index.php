@@ -1,5 +1,5 @@
 <?php
-// session_start();
+session_start();
 // header('Location: http://localhost:3000/partie3/second.php');
 ?>
 
@@ -14,11 +14,11 @@
 
 <body>
 <!-- exo 3 -->
-    <form action="./second.php" method="post">
+    <!-- <form action="./second.php" method="post">
         <label for="login">login</label><input type="text" name="login">
         <label for="password">password</label><input type="password" name="password">
         <input type="submit" value="send">
-    </form>
+    </form> -->
 
     <?php
     // exo 1
@@ -28,9 +28,9 @@
 
     // exo 2
     // setup 
-    // $_SESSION["firstName"] = "nadir";
-    // $_SESSION["lastName"] = "bensadi";
-    // $_SESSION["age"] = "23";
+    $_SESSION["firstName"] = "nadir";
+    $_SESSION["lastName"] = "bensadi";
+    $_SESSION["age"] = "23";
 
     // return;
 
